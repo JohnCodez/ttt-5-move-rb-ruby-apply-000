@@ -15,5 +15,9 @@ end
 
 def move(array, index, value = "X")
   array[index] = value
+<<<<<<< HEAD
+=======
+  
+>>>>>>> de0910d5db3a04f3ccf5d8f6a33112ec7d8a48b7
 end
 

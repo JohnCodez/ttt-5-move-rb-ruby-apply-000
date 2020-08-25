@@ -11,6 +11,11 @@ puts "Where would you like to go?"
 board = [" "," "," "," "," "," "," "," "," "]
 
 input = gets.strip
+<<<<<<< HEAD
 pmove = input_to_index(input)
 move(board, pmove)
+=======
+input_to_index(input)
+move(board, input)
+>>>>>>> de0910d5db3a04f3ccf5d8f6a33112ec7d8a48b7
 display_board(board)
